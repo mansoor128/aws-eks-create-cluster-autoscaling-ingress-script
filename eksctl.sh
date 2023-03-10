@@ -12,7 +12,7 @@ REGION=eu-north-1
 EKS_VERSION=1.24
   # make sure you version matches the version on this block, match it on line 168
   # check version on this website https://github.com/kubernetes/autoscaler/releases
-KEY_NAME=dev-dajavu # this key should be in your ec2 region
+KEY_NAME=key_name # this key should be in your ec2 region
 # dont need to chnage these values
 
 availabilityZones1a="${REGION}a"
